@@ -1,0 +1,19 @@
+host:
+  hostname: "localhost"
+  port: 50061
+
+lead_scraper:
+  topic_type: "crm.leads.scrape"
+  description: "Scrapes LinkedIn for leads"
+
+email_agent:
+  topic_type: "crm.email.send"
+  description: "Sends notification emails"
+
+order_agent:
+  topic_type: "crm.order.new"
+  description: "Processes incoming orders"
+
+manager_agent:
+  topic_type: "crm.manager"
+  description: "Coordinates CRM workflow"
